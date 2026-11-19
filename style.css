@@ -1,0 +1,10 @@
+:root{--bg:#0b1020;--panel:#131b30;--text:#edf2ff;--muted:#9aa8c4;--accent:#7c8cff;--line:#263451}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 "Segoe UI",Arial,sans-serif}
+header,main,footer{max-width:860px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:22px;text-decoration:none;color:var(--text)}.brand span{color:var(--accent)}
+nav a{color:#c8d3ec;margin-left:18px;text-decoration:none}nav a:hover{color:#fff}
+h1{font-size:34px;line-height:1.2}h2{margin-top:34px;font-size:22px}a{color:#aebaff}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:18px 0}
+.yt{display:inline-block;background:#26345a;border-radius:20px;padding:4px 12px;font-size:13px;color:#cbd5ff}
+.muted{color:var(--muted)}footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px}footer a{margin-right:16px}
+ul li{margin:6px 0}code{background:#0c1426;padding:1px 6px;border-radius:5px}
